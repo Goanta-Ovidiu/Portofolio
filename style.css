@@ -1,15 +1,17 @@
 * {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
   position: relative;
 }
 .nav-bar {
   display: flex;
-  float: right;
-  position: relative;
+  right: 2%;
+  position: absolute;
   font-size: 1.2rem;
-  margin: 0;
-  padding: 0;
+  margin: 1rem;
+  padding: 1rem;
   z-index: 1;
 }
 .nav-link {
@@ -20,40 +22,33 @@
 }
 
 .top-section {
-  margin: 0;
-  padding: 0;
   width: 100%;
   height: 100vh;
   padding-top: 15%;
   background-color: rgb(31, 54, 65);
-  text-align: center;
   color: white;
-  font-size: bold;
+  position: relative;
+  text-align: center;
 }
-.title h1 {
-  font-size: 5rem;
+.top-content {
+}
+.top-text {
+  position: relative;
+  text-align: right;
+  padding-top: 50px;
+}
+.title {
   font-weight: bold;
 }
-.under-title {
-  font-size: 2.5rem;
-}
-.title,
-.under-title {
-  text-align: right;
-  position: relative;
-  top: 50%;
-  right: 2%;
-  margin: 0;
-  padding: 0;
-}
+
 .under-title span {
   border-bottom: 3px solid salmon;
 }
 
 .title-image {
-  border-radius: 100%;
-  width: 350px;
-  height: 350px;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
   position: relative;
   padding: 0;
   margin: 0;
@@ -66,13 +61,13 @@
   color: rgb(31, 54, 65);
   width: 100%;
   height: 100vh;
-  margin: auto;
+  margin: 0;
   padding: 7%;
 }
 .my-skill {
   font-size: 3rem;
   text-decoration: underline;
-  padding-bottom: 15%;
+  padding-bottom: 20px;
 }
 .col-lg-4 {
   margin-bottom: 5%;
@@ -84,13 +79,11 @@
 }
 
 .middle-section-2 {
+  position: relative;
   background-color: rgb(31, 54, 65);
   color: white;
-  width: 100%;
-  height: 20%;
   text-align: center;
   padding-top: 5%;
-  margin-top: 3%;
 }
 .middle-section-2 h1 {
   text-decoration: underline;
